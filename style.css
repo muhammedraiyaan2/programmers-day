@@ -1,0 +1,91 @@
+.header{
+    font-size: 80px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Allison', cursive;
+    animation-name: heading;
+    animation-duration: 4s;
+    color: blueviolet;
+    animation-iteration-count: 1;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+.quiz{
+    color: rgb(0, 106, 172);
+}
+.header:hover{
+    color: #936381;
+}
+@keyframes heading {
+    from{
+        color: red;
+        transform: rotate(0deg);
+        /* transform: rotateY(0deg); */
+    }
+    to{
+        color: blueviolet;
+        transform: rotate(360deg);
+        /* transform: rotateY(360deg); */
+    }
+}
+.details{
+    font-size: 35px;
+    color: orange;
+}
+:root{
+    --green:rgb(0, 255, 106);
+    --blue:rgb(134, 203, 226);
+    --aqua:rgb(0, 255, 170);
+}
+.about{
+    font-size: 20px;
+    color: var(--blue);
+}
+.contact{
+    text-align: center;
+    color: red;
+}
+.submit{
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: var(--aqua);
+}
+.submit:hover{
+    background-color: var(--aqua);
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+}
+.project{
+    color: var(--green);
+}
+@media screen and (max-width:700px) {
+    body{
+        font-size: 10px;
+    }
+    .header{
+        font-size: 50px;
+    }
+    .details{
+        font-size: 15px;
+    }
+    .about{
+        font-size: 10px;
+    }
+    .quiz{
+        font-size: 10px;
+    }
+    .project{
+        font-size: 10px;
+    }
+    .submit{
+        font-size: 8px;
+        padding: 5px 7px;
+    }
+    .contact{
+        font-size: 13px;
+    }
+}
