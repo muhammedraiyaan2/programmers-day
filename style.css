@@ -69,6 +69,9 @@ ol{
     .header{
         font-size: 50px;
     }
+    .projects{
+        font-size: 8px;
+    }
     .details{
         font-size: 15px;
     }
@@ -86,6 +89,6 @@ ol{
         padding: 5px 7px;
     }
     .contact{
-        font-size: 13px;
+        font-size: 10px;
     }
 }
