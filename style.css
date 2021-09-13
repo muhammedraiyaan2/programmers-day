@@ -18,6 +18,10 @@ ol{
 .header:hover{
     color: #936381;
 }
+.video{
+    width: 100%;
+    height: 200px;
+}
 @keyframes heading {
     from{
         color: red;
